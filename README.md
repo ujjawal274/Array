@@ -38,4 +38,21 @@ Constraints:
 -109 <= nums[i] <= 109
 -109 <= target <= 109
 Only one valid answer exists. ""
+
+Solution For That ---
+class Solution:
+    def twoSum(self, nums, nums2, target):
+        i=0
+        j=i+1
+        k=0
+        target=9
+
+        for i in range(0,len(nums)):
+            if nums[i] + nums[j] == target:
+                nums2[k]= i
+                k+=1
+                nums2[k]= j
+
+        return nums2     
+
 ---
