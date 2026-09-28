@@ -53,6 +53,8 @@ class Solution:
                 k+=1
                 nums2[k]= j
 
-        return nums2     
+        return nums2    
+
+ I solved an Array Question called TwoSum.
 
 ---
