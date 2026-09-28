@@ -1,0 +1,52 @@
+🔄 LeetCode #1 — Two Sum
+
+1️⃣ Problem ka Core Logic
+
+Array mein 2 different elements find karne hain jinka sum target ke equal ho. Har element ko uske baad wale elements ke saath check karo; match milte hi un dono ke indexes [i, j] return karo.
+
+i = current element ka index
+j = i ke baad wale element ka index
+
+nums[i] + nums[j] == target
+        ↓
+    [i, j]
+
+
+2️⃣ Important Concept / Pattern
+
+Nested Loop + Two Indexes
+
+- i → first element ka index
+- j → second element ka index
+- j = i + 1 → same element ko dobara use nahi karna
+- == → comparison (check karna)
+- [i, j] → indexes return karna
+
+Brute-Force approach:
+
+for i in range(0, len(nums)):
+    for j in range(i + 1, len(nums)):
+
+
+3️⃣ Similar Problem mein Logic Kaise Identify Karna Hai?
+
+Agar question mein:
+
+- 2 elements ka pair find karna ho
+- dono values ke beech koi condition ho
+- har possible pair check karna ho
+- aur indexes/values return karne ho
+
+to pehle Nested Loop ka idea socho:
+
+First element → i
+       ↓
+Second element → j
+       ↓
+Condition check
+
+🧠 Quick Identification Pattern:
+
+"Har element ko uske baad wale har element ke saath compare karna hai"
+        ↓
+Nested Loop
