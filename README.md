@@ -57,6 +57,11 @@ class Solution:
  I solved an Array Question called TwoSum.
  And next question i solved that called Rotate Array
 
+ ---
+ I practiced two questions of array:
+ First- Best time to Buy and sell stocks
+ Second- twoSum
+
 ---
 ---
 ---
