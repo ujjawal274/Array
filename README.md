@@ -57,6 +57,7 @@ class Solution:
  ---
  I practiced two questions of array:
  First- Best time to Buy and sell stocks
+  Second- TwoSum
 
 
 
