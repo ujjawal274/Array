@@ -40,19 +40,14 @@ Only one valid answer exists. ""
 
 Solution For That ---
 class Solution:
-    def twoSum(self, nums, nums2, target):
+    def twoSum(self, nums, target):
         i=0
         j=i+1
-        k=0
-        target=9
 
         for i in range(0,len(nums)):
-            if nums[i] + nums[j] == target:
-                nums2[k]= i
-                k+=1
-                nums2[k]= j
-
-        return nums2    
+            for i in range(i+1,len(nums)):
+               if nums[i] + nums[j] == target:
+                  return [i,j]   
 
  I solved an Array Question called TwoSum.
  And next question i solved that called Rotate Array
