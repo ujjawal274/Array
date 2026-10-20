@@ -60,7 +60,7 @@ class Solution:
   Second- TwoSum utooguglougipl
  ---  
  I practiced one question of array:
- Known as- Single
+ Known as- Single No.
 
 
 
