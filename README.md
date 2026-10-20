@@ -58,6 +58,9 @@ class Solution:
  I practiced two questions of array:
  First- Best time to Buy and sell stocks
   Second- TwoSum utooguglougipl
+ ---  
+ I practiced one question of array:
+ Known as- Single No.
 
 
 
