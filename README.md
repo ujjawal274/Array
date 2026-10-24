@@ -62,6 +62,10 @@ class Solution:
  I practiced one question of array:
  Known as- Single No. uoyfosuegfo8usrt
 
+ ---
+ I practiced an Array Question:
+ Known as- sortedSquares
+
 
 
 ---
