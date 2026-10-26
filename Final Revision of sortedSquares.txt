@@ -1,0 +1,54 @@
+Final Revision of sortedSquares: 
+
+
+LeetCode #977 — Squares of a Sorted Array
+
+1️⃣ Problem ka Core Logic
+Array already sorted hai, isliye left aur right dono ends ko compare karo. Jiska absolute(abs / |-4|) value bada ho, uska square bada hoga, aur us square ko result ke end se fill karo.
+
+Left/Right compare
+       ↓
+Bada square → result ke end mein
+       ↓
+Pointer ko move karo
+
+2️⃣ Important Concept / Pattern
+Two Pointers(approach) + Sorted Array
+- left → starting side se check karta hai.
+- right → ending side se check karta hai.
+- abs() → dono values ko compare karne ke liye.
+- Bada square → result(ARRAY) mein right se place hota hai.
+- Sorted input ki wajah se hume poora array dobara sort nahi karna padta.
+
+Main Pattern:
+
+Sorted Array
+     ↓
+Left + Right compare ( With the help of abs / |-4| )
+     ↓
+Bada value/square identify
+     ↓
+Result(ARRAY) ko right → left fill karo
+
+3️⃣ Similar Problem mein Logic Kaise Identify Karna Hai?
+Agar question mein:
+- Array already sorted ho
+- Negative + positive values ho sakti hain
+- Result ko sorted order mein arrange karna ho
+- Direct sorting se bachna ho
+toh "Two Pointer Approch" ka idea socho:
+
+Left  → beginning
+Right → ending
+
+Dono ko compare karo
+     ↓
+Jo bada hai → result(ARRAY) mein place karo
+     ↓
+Particular pointer ko move karo
+
+🧠 One-line Revision-
+Sorted array mein dono ends ko compare karke bada element ka square, result(ARRAY) mein right se fill karna = With help of Two Pointer Approch .
+
+
+
